@@ -1,0 +1,30 @@
+{
+  "name": "multilayer-perceptron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch 'src/' --exec \"ts-node src/index.ts\" -e ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VicSanNun/multilayer-perceptron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VicSanNun/multilayer-perceptron/issues"
+  },
+  "homepage": "https://github.com/VicSanNun/multilayer-perceptron#readme",
+  "dependencies": {
+    "@types/node": "^12.7.5",
+    "nodemon": "^1.19.2",
+    "ts-node": "^8.4.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
